@@ -1,0 +1,9 @@
+#  spring.cloud.config.urihttp://localhost:8888
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+
