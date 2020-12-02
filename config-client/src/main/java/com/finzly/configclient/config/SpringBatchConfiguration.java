@@ -25,6 +25,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import com.finzly.configclient.model.MarginedRate;
 
 
+
 /** 
  * This class is used to set configuration for spring batch.It defines Job, Step, Task executor and Reader component of the step.
  * 

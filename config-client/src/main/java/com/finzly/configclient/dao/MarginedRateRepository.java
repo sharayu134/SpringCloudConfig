@@ -8,6 +8,8 @@ import com.finzly.configclient.model.MarginedRate;
 
 
 
+
+
 /**
  * This is DAO for Margined Rates
  * 

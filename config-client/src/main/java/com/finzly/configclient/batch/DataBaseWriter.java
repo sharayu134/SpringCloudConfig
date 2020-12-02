@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
 import com.finzly.configclient.dao.MarginedRateRepository;
 import com.finzly.configclient.model.MarginedRate;
 
+
+
 /**
  * This a writer component for step which writes marginedRates to database using marginedRate's Repository
  * 
