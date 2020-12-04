@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("/load/margined_rates")
+@RequestMapping("/load")
 public class CsvLoadController {
 
     @Autowired
@@ -36,7 +36,7 @@ public class CsvLoadController {
     @Autowired
     Job job;
     
-    @GetMapping
+    @GetMapping("/margined_rates")
     public BatchStatus load() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
 
 
